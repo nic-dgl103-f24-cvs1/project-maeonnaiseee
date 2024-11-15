@@ -15,25 +15,36 @@ Project Website Plan Content
 3.  Website Content
 
 Homepage
-Header with logo and navigation
-Nav- Homepage-About-Services
-Hero Section
--Heading
--Description on site
--Image
-Service section and link to show more
-Benefits Section  
-Call to action Section (contact)
-Footer (with navigation, short description of company, and copyright)
+
+- Header with logo and navigation
+- Navigation Homepage-About-Services
+- Hero Section
+- Heading
+- Description on site
+- Image
+- Service section and link to show more
+- Benefits Section
+- Call to action Section (contact)
+- Footer (with navigation, short description of company, and copyright)
+
+Service Page
+
+- Header
+- Hero Section with icon
+- Heading
+- Service section with art classes
+- Icons
+- Footer (with navigation, short description of company, and copyright)
 
 About us
-Header
-Section giving about us information on company
-Section about owner
-Call to action link to book services
-Footer with same navigation
-Services Page
-Header and images
-Services listed in articles with icon little photos
-Contact section
-Footer
+
+- Header
+- Section giving about us information on company
+- Section about owner
+- Call to action link to book services
+- Footer with same navigation
+- Services Page
+- Header and images
+- Services listed in articles with icon little photos
+- Contact section
+- Footer
