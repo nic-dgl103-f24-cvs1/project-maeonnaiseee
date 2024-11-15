@@ -253,3 +253,37 @@ a {
   width: 24px;
   height: 24px;
 }
+/*-------- DESKTOP  ---------*/
+/* Header Section for Desktop */
+
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .nav-items li {
+    margin: 0;
+  }
+
+  .nav-items a {
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+}
