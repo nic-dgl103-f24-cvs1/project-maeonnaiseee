@@ -301,4 +301,12 @@ a {
     max-width: 280px;
     flex: 0 0 30%;
   }
+  /* Call to Action Section */
+  .call-to-action h2 {
+    font-size: 3rem;
+  }
+
+  .call-to-action p {
+    font-size: 2rem;
+  }
 }
