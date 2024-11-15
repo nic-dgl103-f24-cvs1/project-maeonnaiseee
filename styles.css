@@ -135,7 +135,7 @@ a {
 }
 
 .benefit-icon {
-  width: 60px;
+  width: 120px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -285,5 +285,20 @@ a {
   .nav-items a {
     font-size: 1.8rem;
     color: #ffffff;
+  }
+
+  /* Benefits Section */
+  .benefits h2 {
+    font-size: 3rem;
+  }
+
+  .benefits-grid {
+    flex-wrap: nowrap;
+    gap: 4rem;
+  }
+
+  .benefit-item {
+    max-width: 280px;
+    flex: 0 0 30%;
   }
 }
