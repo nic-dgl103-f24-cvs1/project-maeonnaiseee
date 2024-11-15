@@ -160,6 +160,7 @@ a {
 }
 
 .call-to-action h2 {
+  font-family: "Pacifico", serif;
   font-size: 2.4rem;
   margin-bottom: 1rem;
 }
@@ -309,4 +310,44 @@ a {
   .call-to-action p {
     font-size: 2rem;
   }
+}
+/* Testimonials Section */
+.testimonials h2 {
+  font-size: 3rem;
+}
+
+.testimonial-item {
+  max-width: 700px;
+  padding: 3rem;
+}
+
+.testimonial-item p {
+  font-size: 1.8rem;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.footer p {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+.footer .social-links {
+  justify-content: flex-end;
+}
+
+.footer .social-links li {
+  margin: 0 2rem;
+}
+
+.footer .social-icon {
+  width: 30px;
+  height: 30px;
 }
