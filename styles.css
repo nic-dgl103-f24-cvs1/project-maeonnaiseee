@@ -104,6 +104,7 @@ a {
 .benefits {
   padding: 4rem 2rem;
   text-align: center;
+  background-color: #f7a8b8;
 }
 
 .benefits h2 {
@@ -114,21 +115,19 @@ a {
 
 .benefits-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
 }
 
 .benefit-item {
+  background-color: #ffffff;
+  border: 2px solid #c7e2fc;
+  padding: 2rem;
   text-align: center;
-}
-
-.benefit-item h3 {
-  font-size: 2rem;
-  margin: 1rem 0;
-}
-
-.benefit-item p {
-  font-size: 1.6rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 1;
 }
 
 .benefit-icon {
@@ -136,6 +135,18 @@ a {
   height: auto;
   margin-bottom: 1rem;
 }
+
+.benefit-item h3 {
+  font-size: 1.8rem;
+  color: #523368;
+  margin: 1rem 0;
+}
+
+.benefit-item p {
+  font-size: 1.6rem;
+  color: #333;
+}
+
 /* Call to Action Section */
 .call-to-action {
   background-color: #c7e2fc;
