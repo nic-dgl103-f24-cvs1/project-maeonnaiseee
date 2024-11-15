@@ -27,3 +27,49 @@ a {
 .dark-background {
   background-color: #f2f5f7;
 }
+/* Header */
+.header {
+  background-color: #6b4a8d;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.navigation {
+  position: relative;
+}
+
+.toggle {
+  display: block;
+  font-size: 2.4rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  background-color: #6b4a8d;
+  padding: 1rem;
+}
+
+.nav-items.show-items {
+  display: flex;
+}
+
+.nav-items li {
+  margin: 1rem 0;
+}
+
+.nav-items a {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
