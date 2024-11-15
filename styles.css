@@ -100,3 +100,39 @@ a {
   border-radius: 0.5rem;
   font-family: "Playfair Display", serif;
 }
+/* Benefits Section */
+.benefits {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #6b4a8d;
+}
+
+.benefits-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.benefit-item {
+  text-align: center;
+}
+
+.benefit-item h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.benefit-item p {
+  font-size: 1.6rem;
+}
+
+.benefit-icon {
+  width: 60px;
+  height: auto;
+  margin-bottom: 1rem;
+}
