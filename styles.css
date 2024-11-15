@@ -73,3 +73,30 @@ a {
   color: #ffffff;
   font-size: 1.8rem;
 }
+/* Hero Section */
+.hero {
+  background-color: #f7a8b8;
+  text-align: center;
+  color: #6b4a8d;
+  padding: 12rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  font-family: "Pacifico", serif;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  margin: 1rem 0 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #f3a447;
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  font-family: "Playfair Display", serif;
+}
