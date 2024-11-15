@@ -180,3 +180,21 @@ a {
   font-size: 1.6rem;
   color: #f3a447;
 }
+/* Footer */
+.footer {
+  background-color: #523368;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.footer .social-links li {
+  margin: 0 1rem;
+}
