@@ -173,24 +173,52 @@ a {
 .testimonials {
   padding: 4rem 2rem;
   text-align: center;
+  color: #523368;
+  background-image: url("images/homepage_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .testimonials h2 {
   font-size: 2.4rem;
-  color: #523368;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f7a8b8;
+  border: 2px solid #f3a447;
+  border-radius: 8px;
+  padding: 2rem;
   margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-item {
-  margin: 2rem 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #f3a447;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 1.6rem;
   font-style: italic;
+  color: #333;
 }
 
 .testimonial-item h4 {
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #f3a447;
+  font-weight: bold;
 }
+
 /* Footer */
 .footer {
   background-color: #523368;
