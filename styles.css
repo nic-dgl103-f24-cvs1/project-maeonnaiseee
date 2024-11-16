@@ -459,7 +459,9 @@ a {
   background-color: #f3a447;
   color: #ffffff;
   border-radius: 5px;
+  transition: 0.3s ease, transform 0.3s ease;
 }
 .contact-form button:hover {
   background-color: #e28d30;
+  transform: scale(1.1);
 }
