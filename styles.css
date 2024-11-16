@@ -38,7 +38,7 @@ a {
 }
 
 .logo img {
-  width: 120px;
+  width: 200px;
   height: auto;
 }
 
@@ -360,6 +360,7 @@ a {
 }
 
 .classes h2 {
+  font-family: "Pacifico", serif;
   font-size: 2.4rem;
   color: #523368;
   margin-bottom: 2rem;
@@ -409,4 +410,29 @@ a {
   color: #ffffff;
   border-radius: 0.5rem;
   display: inline-block;
+}
+/* Contact Form Section */
+.contact {
+  padding: 4rem 2rem;
+  background-color: #c7e2fc;
+  text-align: center;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 0.5rem;
 }
