@@ -412,6 +412,7 @@ a {
   display: inline-block;
 }
 /* Contact Form Section */
+/* Looked up how to input and style contact section please let me know if this is correct*/
 .contact {
   padding: 4rem 2rem;
   background-color: #c7e2fc;
@@ -435,4 +436,30 @@ a {
   font-size: 1.6rem;
   color: #333;
   margin-bottom: 0.5rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #523368;
+}
+
+.contact-form button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: #f3a447;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.contact-form button:hover {
+  background-color: #e28d30;
 }
