@@ -310,46 +310,47 @@ a {
   .call-to-action p {
     font-size: 2rem;
   }
-}
-/* Testimonials Section */
-.testimonials h2 {
-  font-size: 3rem;
-}
 
-.testimonial-item {
-  max-width: 700px;
-  padding: 3rem;
-}
+  /* Testimonials Section */
+  .testimonials h2 {
+    font-size: 3rem;
+  }
 
-.testimonial-item p {
-  font-size: 1.8rem;
-}
+  .testimonial-item {
+    max-width: 700px;
+    padding: 3rem;
+  }
 
-/* Footer */
-.footer {
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem 2rem;
-}
+  .testimonial-item p {
+    font-size: 1.8rem;
+  }
 
-.footer p {
-  font-size: 1.6rem;
-  margin-bottom: 0;
-}
+  /* Footer */
+  .footer {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
 
-.footer .social-links {
-  justify-content: flex-end;
-}
+  .footer p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
 
-.footer .social-links li {
-  margin: 0 2rem;
-}
+  .footer .social-links {
+    justify-content: flex-end;
+  }
 
-.footer .social-icon {
-  width: 30px;
-  height: 30px;
+  .footer .social-links li {
+    margin: 0 2rem;
+  }
+
+  .footer .social-icon {
+    width: 30px;
+    height: 30px;
+  }
 }
 /*-------- SECOND PAGE CLASSES  ---------*/
 /* Classes Section */
@@ -464,4 +465,33 @@ a {
 .contact-form button:hover {
   background-color: #e28d30;
   transform: scale(1.1);
+}
+/*-------- THIRD PAGE ABOUT  ---------*/
+
+/* About Section */
+.about {
+  background-color: #f7a8b8; /* Light pink background for a welcoming tone */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.8rem; /* Slightly larger than standard for emphasis */
+  color: #523368; /* Purple for consistency */
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.about h2 {
+  font-size: 2.4rem; /* Slightly smaller subheadings */
+  color: #523368;
+  margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.about p {
+  font-size: 1.6rem;
+  color: #333; /* Neutral color for readability */
+  line-height: 1.8;
+  margin-bottom: 2rem;
 }
