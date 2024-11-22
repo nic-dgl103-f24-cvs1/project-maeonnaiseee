@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", "Playfair Display", serif;
+  font-family: "Roboto", "Playfair Display", serif; /* My two chosen Google fonts */
   font-size: 1.6rem;
   margin: 0;
   color: #333;
@@ -15,7 +15,7 @@ a {
   color: inherit;
 }
 /*-------- UTILITY ---------*/
-
+/* Styles used throughout */
 .content-width {
   width: 334px;
   margin: auto;
@@ -47,6 +47,7 @@ a {
 }
 
 .toggle {
+  /* Style to the 'Hamburger' icon */
   display: block;
   font-size: 2.4rem;
   color: #ffffff;
@@ -79,7 +80,7 @@ a {
   padding: 4rem 2rem;
   text-align: center;
   color: #523368;
-  background-image: url("images/homepage_bg.png");
+  background-image: url("images/homepage_bg.png"); /* Background image to create a more put together layout */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,6 +136,7 @@ a {
 }
 
 .benefit-icon {
+  /* Style to the icons and size to create consistency */
   width: 120px;
   height: auto;
   margin-bottom: 1rem;
@@ -179,7 +181,7 @@ a {
   padding: 4rem 2rem;
   text-align: center;
   color: #523368;
-  background-image: url("images/homepage_image.png");
+  background-image: url("images/homepage_image.png"); /* Background image to create a more put together layout */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +202,12 @@ a {
 }
 
 .testimonial-item {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Stylied box that has a lower opacity */
   border: 2px solid #f3a447;
   border-radius: 8px;
   padding: 2rem;
@@ -368,6 +375,7 @@ a {
 }
 
 .classes-grid {
+  /*Formatting and style to orangize avaliable classes */
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -460,7 +468,7 @@ a {
   background-color: #f3a447;
   color: #ffffff;
   border-radius: 5px;
-  transition: 0.3s ease, transform 0.3s ease;
+  transition: 0.3s ease, transform 0.3s ease; /* Styling for CSS transition */
 }
 .contact-form button:hover {
   background-color: #e28d30;
@@ -470,7 +478,7 @@ a {
 
 /* About Section */
 .about {
-  background-color: #f7a8b8; /* Light pink background for a welcoming tone */
+  background-color: #f7a8b8;
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -494,4 +502,24 @@ a {
   color: #333; /* Neutral color for readability */
   line-height: 1.8;
   margin-bottom: 2rem;
+}
+/* Video Section */
+.video-section {
+  background-color: #c7e2fc;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.video-section h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.video-wrapper video {
+  width: 100%;
+  max-width: 800px; /* Sizing to video so it doesnt take uo too much content of viewport */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
