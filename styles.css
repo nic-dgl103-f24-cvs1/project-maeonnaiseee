@@ -523,3 +523,25 @@ a {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Map Section */
+.map-section {
+  background-color: #f2f5f7;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  max-width: 800px; /* Limit the map width */
+  height: 450px;
+  border: 2px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
