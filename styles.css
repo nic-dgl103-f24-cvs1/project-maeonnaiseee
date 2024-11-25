@@ -478,30 +478,72 @@ a {
 
 /* About Section */
 .about {
-  background-color: #f7a8b8;
+  background-color: #f7a8b8; 
   padding: 4rem 2rem;
-  text-align: center;
 }
 
-.about h1 {
-  font-size: 2.8rem; /* Slightly larger than standard for emphasis */
-  color: #523368; /* Purple for consistency */
+.about .about-content {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 2rem; /
+}
+
+.about-info {
+  flex: 2; /* Takes up more space than the aside */
+}
+
+.about-info h1 {
+  font-size: 2.8rem;
+  color: #523368;
   margin-bottom: 2rem;
   font-family: "Pacifico", serif;
 }
 
-.about h2 {
-  font-size: 2.4rem; /* Slightly smaller subheadings */
+.about-info h2 {
+  font-size: 2.4rem;
   color: #523368;
   margin-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
 }
 
-.about p {
+.about-info p {
   font-size: 1.6rem;
-  color: #333; /* Neutral color for readability */
+  color: #333;
   line-height: 1.8;
   margin-bottom: 2rem;
+}
+
+.about-aside {
+  flex: 1; 
+  background-color: #c7e2fc; 
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about-aside h3 {
+  font-size: 2rem;
+  color: #523368;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.about-aside p {
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about-aside ul {
+  list-style: disc;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.about-aside ul li {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 /* Video Section */
 .video-section {
@@ -511,7 +553,7 @@ a {
 }
 
 .video-section h2 {
-  font-size: 2.4rem;
+  font-size: 2.4rem; /* Neutral color for readability */
   color: #523368;
   margin-bottom: 2rem;
   font-family: "Pacifico", serif;
