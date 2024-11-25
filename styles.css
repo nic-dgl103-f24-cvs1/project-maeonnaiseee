@@ -261,104 +261,6 @@ a {
   width: 24px;
   height: 24px;
 }
-/*-------- DESKTOP  ---------*/
-/* Header Section for Desktop */
-
-@media (min-width: 768px) {
-  /* Header */
-  .header {
-    padding: 1.5rem 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .toggle {
-    display: none;
-  }
-
-  .nav-items {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    position: static;
-    background: none;
-    padding: 0;
-  }
-
-  .nav-items li {
-    margin: 0;
-  }
-
-  .nav-items a {
-    font-size: 1.8rem;
-    color: #ffffff;
-  }
-
-  /* Benefits Section */
-  .benefits h2 {
-    font-size: 3rem;
-  }
-
-  .benefits-grid {
-    flex-wrap: nowrap;
-    gap: 4rem;
-  }
-
-  .benefit-item {
-    max-width: 280px;
-    flex: 0 0 30%;
-  }
-  /* Call to Action Section */
-  .call-to-action h2 {
-    font-size: 3rem;
-  }
-
-  .call-to-action p {
-    font-size: 2rem;
-  }
-
-  /* Testimonials Section */
-  .testimonials h2 {
-    font-size: 3rem;
-  }
-
-  .testimonial-item {
-    max-width: 700px;
-    padding: 3rem;
-  }
-
-  .testimonial-item p {
-    font-size: 1.8rem;
-  }
-
-  /* Footer */
-  .footer {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 2rem;
-  }
-
-  .footer p {
-    font-size: 1.6rem;
-    margin-bottom: 0;
-  }
-
-  .footer .social-links {
-    justify-content: flex-end;
-  }
-
-  .footer .social-links li {
-    margin: 0 2rem;
-  }
-
-  .footer .social-icon {
-    width: 30px;
-    height: 30px;
-  }
-}
 /*-------- SECOND PAGE CLASSES  ---------*/
 /* Classes Section */
 .classes {
@@ -587,3 +489,103 @@ a {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/*-------- DESKTOP  ---------*/
+/*-------- FIRST PAGE  ---------*/
+/* Header Section for Desktop */
+
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .nav-items li {
+    margin: 0;
+  }
+
+  .nav-items a {
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  /* Benefits Section */
+  .benefits h2 {
+    font-size: 3rem;
+  }
+
+  .benefits-grid {
+    flex-wrap: nowrap;
+    gap: 4rem;
+  }
+
+  .benefit-item {
+    max-width: 280px;
+    flex: 0 0 30%;
+  }
+  /* Call to Action Section */
+  .call-to-action h2 {
+    font-size: 3rem;
+  }
+
+  .call-to-action p {
+    font-size: 2rem;
+  }
+
+  /* Testimonials Section */
+  .testimonials h2 {
+    font-size: 3rem;
+  }
+
+  .testimonial-item {
+    max-width: 700px;
+    padding: 3rem;
+  }
+
+  .testimonial-item p {
+    font-size: 1.8rem;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+
+  .footer p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .footer .social-links {
+    justify-content: flex-end;
+  }
+
+  .footer .social-links li {
+    margin: 0 2rem;
+  }
+
+  .footer .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+/*-------- DESKTOP SECOND PAGE  ---------*/
