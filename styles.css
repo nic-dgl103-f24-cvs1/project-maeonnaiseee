@@ -687,4 +687,13 @@ a {
 .about-aside ul li {
   font-size: 1.8rem; 
 }
+/* Video Section */
+.video-section h2 {
+  font-size: 3rem; 
+}
+
+.video-wrapper video {
+  max-width: 900px; /* Larger video size for desktop */
+  margin: auto;
+}
 }
