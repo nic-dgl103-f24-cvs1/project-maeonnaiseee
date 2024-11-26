@@ -696,4 +696,16 @@ a {
   max-width: 900px; /* Larger video size for desktop */
   margin: auto;
 }
+/* Map Section */
+.map-section {
+  padding: 6rem 4rem;
+}
+
+.map-section h2 {
+  font-size: 3rem; 
+}
+
+.map-wrapper iframe {
+  max-width: 900px; /* Larger map size for desktop */
+}
 }
