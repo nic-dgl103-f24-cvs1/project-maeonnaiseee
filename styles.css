@@ -587,7 +587,6 @@ a {
     width: 30px;
     height: 30px;
   }
-}
 /*-------- DESKTOP SECOND PAGE  ---------*/
 /* Classes Section */
 .classes {
@@ -614,4 +613,30 @@ a {
 
 .class-item .cta-button {
   font-size: 1.8rem;
+}
+/* Contact Form Section */
+.contact {
+  padding: 6rem 4rem;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-form {
+  max-width: 600px; /* Wider form for desktop */
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1.8rem; 
+  padding: 1.2rem;
+}
+
+.contact-form button {
+  font-size: 2rem; 
+  padding: 1.5rem 3rem;
+}
 }
