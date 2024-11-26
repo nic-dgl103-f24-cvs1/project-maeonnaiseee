@@ -589,3 +589,29 @@ a {
   }
 }
 /*-------- DESKTOP SECOND PAGE  ---------*/
+/* Classes Section */
+.classes {
+  padding: 6rem 4rem;
+}
+
+.classes-grid {
+  gap: 4rem; 
+  justify-content: space-around;
+}
+
+.class-item {
+  max-width: 300px; /* Limit class item width */
+  flex: 0 0 30%;
+}
+
+.class-item h3 {
+  font-size: 2rem;
+}
+
+.class-item p {
+  font-size: 1.8rem; 
+}
+
+.class-item .cta-button {
+  font-size: 1.8rem;
+}
