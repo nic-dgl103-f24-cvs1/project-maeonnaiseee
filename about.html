@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Art Adventures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/artadventureslogo.png"
+              alt="Art Adventures Logo"
+              class="logo-image"
+            />
+          </a>
+        </div>
+        <nav class="navigation">
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+          <ul id="nav-items" class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        <div class="about-content">
+          <!-- Main About Section -->
+          <div class="about-info">
+            <h1>About Art Adventures</h1>
+            <p>
+              Art Adventures is more than just an art class, it’s a creative
+              hub! Featuring a small retail store and gallery, we showcase a
+              variety of art supplies and handpicked creations from local and
+              island-wide artists. Our specialty lies in affordable painting and
+              needle felting supplies, perfect for new and aspiring artists
+              ready to explore their creativity.
+            </p>
+            <h2>Meet Art Teacher Alicia Lumb</h2>
+            <p>
+              Founder of Art Adventures, is a classically trained artist with a
+              rich background in animation, film, and video game artistry. With
+              training from Emily Carr University, North Island College, and the
+              Art Institute of Vancouver, Alicia brings over a decade of
+              experience as an environment painter and an educator. She is
+              passionate about empowering students to create artwork they can
+              feel proud of—guiding even beginners to paint pieces like Van
+              Gogh's skyline. Alicia's teaching experience spans children,
+              teens, and adults, combining her knowledge of art with her
+              certifications in First Aid and childhood developmental
+              psychology. She has a heart for community service, volunteering
+              her time for art therapy with individuals with disabilities,
+              dementia patients, and the elderly. Whether you're picking up a
+              brush for the first time or looking to refine your skills,
+              Alicia’s classes provide a supportive, inspiring environment for
+              all.
+            </p>
+          </div>
+
+          <!-- Aside Section -->
+          <aside class="about-aside">
+            <h3>Our Mission</h3>
+            <p>
+              To inspire creativity, foster a love for art, and provide a
+              supportive space where artists of all ages and skill levels can
+              thrive.
+            </p>
+            <h3>Upcoming Events</h3>
+            <ul>
+              <li>Art Showcase - December 15</li>
+              <li>Holiday Craft Workshop - December 20</li>
+              <li>Kids' Winter Camp - January 5</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="container">
+        <h2>Become Apart of The Fun</h2>
+        <div class="video-wrapper">
+          <video width="100%" height="auto" controls>
+            <source src="images/about_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- Google Maps Section -->
+    <section class="map-section">
+      <div class="container">
+        <h2>Visit Us</h2>
+        <div class="map-wrapper">
+          <!-- Code copied directly from embed a map on Google maps-->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.5332769311267!2d-124.98433416637224!3d49.678262104452656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488151fd47faaa9%3A0xd1d901ec6a5a6710!2sArt%20Adventures!5e1!3m2!1sen!2sca!4v1731820770069!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; “This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.” 2024 Art Adventures. All rights reserved.
+        </p>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/ArtAdventuresVI">
+              <img
+                src="images/facebook_icon.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/yourchannel">
+              <img
+                src="images/youtube_icon.png"
+                alt="YouTube"
+                class="social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
