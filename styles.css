@@ -99,7 +99,7 @@ a {
 .cta-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #f3a447;
+  background-color: #523368;
   color: #ffffff;
   font-size: 1.6rem;
   border-radius: 0.5rem;
@@ -399,7 +399,7 @@ a {
 /* Individual Gallery Items */
 .gallery-item {
   position: relative;
-  width: calc(50% - 15px); 
+  width: calc(50% - 15px);
   margin-bottom: 15px;
   overflow: hidden;
   border-radius: 8px;
@@ -420,14 +420,14 @@ a {
 
 /* About Section */
 .about {
-  background-color: #f7bcc8; 
+  background-color: #f7bcc8;
   padding: 4rem 2rem;
 }
 
 .about .about-content {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 2rem; /
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .about-info {
@@ -456,11 +456,11 @@ a {
 }
 
 .about-aside {
-  flex: 1; 
-  background-color: #c7e2fc; 
+  flex: 1;
+  background-color: #c7e2fc;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-aside h3 {
@@ -509,7 +509,7 @@ a {
 }
 /* Map Section */
 .map-section {
-  background-image: url('images/homepage_bg.png');
+  background-image: url("images/homepage_bg.png");
   background-size: cover;
   background-position: center;
   background-color: #f2f5f7;
@@ -631,130 +631,130 @@ a {
     width: 30px;
     height: 30px;
   }
-/*-------- DESKTOP SECOND PAGE  ---------*/
-/* Classes Section */
-.classes {
-  padding: 6rem 4rem;
-}
-
-.classes-grid {
-  gap: 4rem; 
-  justify-content: space-around;
-}
-
-.class-item {
-  max-width: 300px; /* Limit class item width */
-  flex: 0 0 30%;
-}
-
-.class-item h3 {
-  font-size: 2rem;
-}
-
-.class-item p {
-  font-size: 1.8rem; 
-}
-
-.class-item .cta-button {
-  font-size: 1.8rem;
-}
-/* Contact Form Section */
-.contact {
-  padding: 6rem 4rem;
-}
-
-.contact h2 {
-  font-size: 3rem;
-  margin-bottom: 2.5rem;
-}
-
-.contact-form {
-  max-width: 600px; /* Wider form for desktop */
-  margin: auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-  font-size: 1.8rem; 
-  padding: 1.2rem;
-}
-
-.contact-form button {
-  font-size: 2rem; 
-  padding: 1.5rem 3rem;
-}
-/* Photo Gallery Section */
-  .gallery-item {
-      width: calc(25% - 15px); /* 4 items per row on desktop */
+  /*-------- DESKTOP SECOND PAGE  ---------*/
+  /* Classes Section */
+  .classes {
+    padding: 6rem 4rem;
   }
 
-/* About Section */
-.about {
-  padding: 6rem 4rem;
-}
+  .classes-grid {
+    gap: 4rem;
+    justify-content: space-around;
+  }
 
-.about .about-content {
-  flex-direction: row; 
-  gap: 4rem;
-  align-items: flex-start;
-}
+  .class-item {
+    max-width: 300px; /* Limit class item width */
+    flex: 0 0 30%;
+  }
 
-.about-info {
-  flex: 3;
-  max-width: 70%; /* Limit maximum width */
-}
+  .class-item h3 {
+    font-size: 2rem;
+  }
 
-.about-info h1 {
-  font-size: 3.2rem; 
-}
+  .class-item p {
+    font-size: 1.8rem;
+  }
 
-.about-info h2 {
-  font-size: 2.8rem; 
-}
+  .class-item .cta-button {
+    font-size: 1.8rem;
+  }
+  /* Contact Form Section */
+  .contact {
+    padding: 6rem 4rem;
+  }
 
-.about-info p {
-  font-size: 1.8rem; 
-}
-.about-aside {
-  flex: 1;
-  max-width: 30%; /* Limit maximum width */
-  padding: 3rem; 
-}
+  .contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+  }
 
-.about-aside h3 {
-  font-size: 2.4rem; 
-}
+  .contact-form {
+    max-width: 600px; /* Wider form for desktop */
+    margin: auto;
+  }
 
-.about-aside p {
-  font-size: 1.8rem;
-}
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+  }
 
-.about-aside ul {
-  margin-left: 2.5rem; 
-}
+  .contact-form button {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
+  /* Photo Gallery Section */
+  .gallery-item {
+    width: calc(25% - 15px); /* 4 items per row on desktop */
+  }
 
-.about-aside ul li {
-  font-size: 1.8rem; 
-}
-/* Video Section */
-.video-section h2 {
-  font-size: 3rem; 
-}
+  /* About Section */
+  .about {
+    padding: 6rem 4rem;
+  }
 
-.video-wrapper video {
-  max-width: 900px; /* Larger video size for desktop */
-  margin: auto;
-}
-/* Map Section */
-.map-section {
-  padding: 6rem 4rem;
-}
+  .about .about-content {
+    flex-direction: row;
+    gap: 4rem;
+    align-items: flex-start;
+  }
 
-.map-section h2 {
-  font-size: 3rem; 
-}
+  .about-info {
+    flex: 3;
+    max-width: 70%; /* Limit maximum width */
+  }
 
-.map-wrapper iframe {
-  max-width: 900px; /* Larger map size for desktop */
-}
+  .about-info h1 {
+    font-size: 3.2rem;
+  }
+
+  .about-info h2 {
+    font-size: 2.8rem;
+  }
+
+  .about-info p {
+    font-size: 1.8rem;
+  }
+  .about-aside {
+    flex: 1;
+    max-width: 30%; /* Limit maximum width */
+    padding: 3rem;
+  }
+
+  .about-aside h3 {
+    font-size: 2.4rem;
+  }
+
+  .about-aside p {
+    font-size: 1.8rem;
+  }
+
+  .about-aside ul {
+    margin-left: 2.5rem;
+  }
+
+  .about-aside ul li {
+    font-size: 1.8rem;
+  }
+  /* Video Section */
+  .video-section h2 {
+    font-size: 3rem;
+  }
+
+  .video-wrapper video {
+    max-width: 900px; /* Larger video size for desktop */
+    margin: auto;
+  }
+  /* Map Section */
+  .map-section {
+    padding: 6rem 4rem;
+  }
+
+  .map-section h2 {
+    font-size: 3rem;
+  }
+
+  .map-wrapper iframe {
+    max-width: 900px; /* Larger map size for desktop */
+  }
 }
