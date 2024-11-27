@@ -455,14 +455,17 @@ a {
   margin-bottom: 2rem;
 }
 
+.about .about-content {
+  flex-direction: column;
+}
+
 .about-aside {
-  flex: 1;
+  margin-top: 2rem;
+  align-self: stretch;
   background-color: #c7e2fc;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  align-self: flex-start;
-  max-height: fit-content;
 }
 
 .about-aside h3 {
