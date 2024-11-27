@@ -376,6 +376,27 @@ a {
   background-color: #e28d30;
   transform: scale(1.1);
 }
+/* Photo Gallery Section */
+.photo-gallery {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.photo-gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
 /*-------- THIRD PAGE ABOUT  ---------*/
 
 /* About Section */
