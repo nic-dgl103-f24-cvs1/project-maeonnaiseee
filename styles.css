@@ -509,7 +509,11 @@ a {
 }
 /* Map Section */
 .map-section {
+  background-image: url('images/homepage_bg.png');
+  background-size: cover;
+  background-position: center;
   background-color: #f2f5f7;
+  background-repeat: no-repeat;
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -679,6 +683,11 @@ a {
   font-size: 2rem; 
   padding: 1.5rem 3rem;
 }
+/* Photo Gallery Section */
+  .gallery-item {
+      width: calc(25% - 15px); /* 4 items per row on desktop */
+  }
+
 /* About Section */
 .about {
   padding: 6rem 4rem;
