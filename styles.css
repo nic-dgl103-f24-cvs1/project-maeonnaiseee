@@ -328,6 +328,18 @@ a {
   background-color: #f2f5f7;
   text-align: center;
 }
+.bookings-table h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 1.5rem;
+  font-family: "Pacifico", serif;
+}
+
+.bookings-table p {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
 
 /* Contact Form Section */
 /* Looked up how to input and style contact section please let me know if this is correct*/
