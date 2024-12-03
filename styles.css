@@ -2,14 +2,21 @@
 html {
   font-size: 62.5%;
 }
-
-body {
-  font-family: "Roboto", "Playfair Display", serif; /* My two chosen Google fonts */
-  font-size: 1.6rem;
+* {
   margin: 0;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", "Playfair Display", serif;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+}
+.header {
+  padding: 1.5rem 4rem;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -27,11 +34,11 @@ a {
 .dark-background {
   background-color: #f2f5f7;
 }
+
 /* Header */
 .header {
   background-color: #523368;
   color: #ffffff;
-  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,7 +79,6 @@ a {
 
 .nav-items a {
   color: #ffffff;
-  font-size: 1.8rem;
 }
 /* Hero Section */
 .hero {
@@ -602,12 +608,15 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 200px;
   }
-
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
   .toggle {
     display: none;
   }
-
   .nav-items {
     display: flex;
     flex-direction: row;
@@ -620,9 +629,10 @@ a {
   .nav-items li {
     margin: 0;
   }
-
   .nav-items a {
     font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
     color: #ffffff;
   }
 
@@ -715,6 +725,27 @@ a {
 
   .class-item .cta-button {
     font-size: 1.8rem;
+  }
+  /* More Info HTML table */
+  .bookings-table {
+    padding: 6rem 4rem;
+  }
+
+  .bookings-table h2 {
+    font-size: 3rem;
+  }
+
+  .bookings-table p {
+    font-size: 1.8rem;
+  }
+
+  .bookings-table table {
+    font-size: 1.8rem;
+  }
+
+  .bookings-table th,
+  .bookings-table td {
+    padding: 1.5rem;
   }
   /* Contact Form Section */
   .contact {
