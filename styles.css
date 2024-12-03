@@ -322,6 +322,13 @@ a {
   border-radius: 0.5rem;
   display: inline-block;
 }
+/* More Info HTML table */
+.bookings-table {
+  padding: 4rem 2rem;
+  background-color: #f2f5f7;
+  text-align: center;
+}
+
 /* Contact Form Section */
 /* Looked up how to input and style contact section please let me know if this is correct*/
 .contact {
