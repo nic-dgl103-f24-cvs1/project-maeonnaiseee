@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Classes | Art Adventures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/artadventureslogo.png"
+              alt="Art Adventures Logo"
+              class="logo-image"
+            />
+          </a>
+        </div>
+        <nav class="navigation">
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+          <ul id="nav-items" class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Classes Section -->
+    <section class="classes">
+      <div class="container">
+        <h2>Our Classes</h2>
+        <div class="classes-grid">
+          <div class="class-item">
+            <img
+              src="images/service_icon_1.png"
+              alt="Class 1"
+              class="class-image"
+            />
+            <h3>Kids Weekly Art Class (Homeschool Kids)</h3>
+            <p>
+              This weekly art class is specially designed for homeschoolers,
+              offering a creative outlet where kids can experiment with various
+              art techniques, foster their imagination, and make new friends in
+              a fun and engaging environment.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+          <div class="class-item">
+            <img
+              src="images/service_icon_2.png"
+              alt="Class 2"
+              class="class-image"
+            />
+            <h3>Afterschool Art Series</h3>
+            <p>
+              Our afterschool series helps kids unwind and express themselves
+              through guided art projects. From painting to drawing, this class
+              encourages artistic growth while building confidence and having
+              fun.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+          <div class="class-item">
+            <img
+              src="images/service_icon_3.png"
+              alt="Class 3"
+              class="class-image"
+            />
+            <h3>Painting with the Masters: Acrylic</h3>
+            <p>
+              Discover the techniques of great artists as you create your own
+              acrylic masterpieces. This class is perfect for aspiring painters
+              who want to learn timeless skills inspired by the masters.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+          <div class="class-item">
+            <img
+              src="images/service_icon_4.png"
+              alt="Class 4"
+              class="class-image"
+            />
+            <h3>Drawing Techniques for Beginners and Intermediates</h3>
+            <p>
+              Learn the fundamentals of drawing or sharpen your skills in this
+              class tailored for beginners and intermediates. Explore shading,
+              proportions, and perspective while developing your personal style.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+          <div class="class-item">
+            <img
+              src="images/service_icon_5.png"
+              alt="Class 5"
+              class="class-image"
+            />
+            <h3>Acrylic Painting Techniques</h3>
+            <p>
+              Dive deep into the vibrant world of acrylic painting. This class
+              covers essential techniques like blending, layering, and
+              texturing, perfect for building your skills and enhancing your
+              creativity.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+          <div class="class-item">
+            <img
+              src="images/service_icon_6.png"
+              alt="Class 6"
+              class="class-image"
+            />
+            <h3>Portrait and Animal Painting in Acrylics</h3>
+            <p>
+              Learn to capture the essence of people and animals in acrylics.
+              This class focuses on proportions, expression, and texture,
+              helping you create realistic and captivating works of art.
+            </p>
+            <a href="about.html" class="cta-button">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- More info HTML Table -->
+    <section class="bookings-table">
+      <div class="container">
+        <h2>Special Bookings</h2>
+        <p>
+          Explore our unique offerings for group bookings! Whether you're
+          celebrating a special occasion or hosting a creative event, we have
+          you covered.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Booking Type</th>
+              <th>Details</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Painting Party</td>
+              <td>
+                Gather your friends for a fun-filled painting session. Includes
+                supplies and step-by-step guidance.
+              </td>
+              <td>Contact for pricing</td>
+            </tr>
+            <tr>
+              <td>Birthday Party</td>
+              <td>
+                Make your birthday extra special with an art-themed party.
+                Perfect for all ages!
+              </td>
+              <td>Contact for pricing</td>
+            </tr>
+            <tr>
+              <td>Private Party</td>
+              <td>
+                Host a personalized creative event tailored to your group’s
+                interests.
+              </td>
+              <td>Contact for pricing</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Contact Form Section -->
+    <!-- I looked up how to do this as I am missing the class where we learn how to do this, please let me know if this is okay or is done the right way -->
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="POST" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="photo-gallery">
+      <h2>Our Art in Action</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="images/alica_artclass.jpg" alt="Alica and Kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/kids_artclass1.jpg" alt="Kids with Paintings" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/artclass3.jpg" alt="Kids in Artclass" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/kids_artclass3.jpg" alt="Kid with large paintings" />
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; “This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.” 2024 Art Adventures. All rights reserved.
+        </p>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/ArtAdventuresVI">
+              <img
+                src="images/facebook_icon.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/yourchannel">
+              <img
+                src="images/youtube_icon.png"
+                alt="YouTube"
+                class="social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>

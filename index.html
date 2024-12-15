@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Adventures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/artadventureslogo.png"
+              alt="Art Adventures Logo"
+              class="logo-image"
+            />
+          </a>
+        </div>
+        <nav class="navigation">
+          <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></a>
+          <ul id="nav-items" class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Art Adventures</h1>
+        <p>
+          Unleash your creativity with inspiring art classes for all ages and
+          skill levels!
+        </p>
+        <a href="classes.html" class="cta-button">Explore Classes</a>
+      </div>
+    </section>
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <h2>Why Choose Art Adventures?</h2>
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <img
+              src="images/service_icon_4.png"
+              alt="Boost Creativity"
+              class="benefit-icon"
+            />
+            <h3>Boost Creativity</h3>
+            <p>Explore new techniques and unlock your creative potential.</p>
+          </div>
+          <div class="benefit-item">
+            <img
+              src="images/service_icon_3.png"
+              alt="Build Confidence Through Art"
+              class="benefit-icon"
+            />
+            <h3>Build Confidence Through Art</h3>
+            <p>
+              Whether you're a child trying art for the first time or an adult
+              returning to a passion, our nurturing environment helps you build
+              confidence in your artistic abilities, one brushstroke at a time.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <img
+              src="images/service_icon_1.png"
+              alt="Fun for All Ages"
+              class="benefit-icon"
+            />
+            <h3>Fun for All Ages</h3>
+            <p>
+              From imaginative kids' sessions to in-depth adult workshops, our
+              classes are tailored to suit every age and skill level, ensuring a
+              fun and rewarding experience for everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action Section -->
+    <section class="call-to-action">
+      <div class="container">
+        <h2>Start Your Art Journey Today!</h2>
+        <p>Sign up for a class and bring your creative visions to life.</p>
+        <a href="classes.html" class="cta-button">Join Now</a>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-item">
+          <p>
+            "My 2 children have taken part in the day program for months now.
+            They love the art projects and their time with Alicia at Art
+            Adventures."
+          </p>
+          <h3>- Chrystal C.</h3>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "My two children 8 and 10 both loved attending Art Adventures. They
+            would always come home with incredible art pieces, but more
+            importantly had an amazing time in a safe and caring environment. "
+          </p>
+          <h3>- Sarah L.</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; “This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.” 2024 Art Adventures. All rights reserved.
+        </p>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/ArtAdventuresVI">
+              <img
+                src="images/facebook_icon.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/yourchannel">
+              <img
+                src="images/youtube_icon.png"
+                alt="YouTube"
+                class="social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>

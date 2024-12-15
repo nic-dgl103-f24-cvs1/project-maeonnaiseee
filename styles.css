@@ -1,0 +1,849 @@
+/* Base Styles */
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Playfair Display", serif;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+}
+.header {
+  padding: 1.5rem 4rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*-------- UTILITY ---------*/
+/* Styles used throughout */
+.content-width {
+  width: 334px;
+  margin: auto;
+  background-color: #c7e2fc;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+.dark-background {
+  background-color: #f2f5f7;
+}
+
+/* Header */
+.header {
+  background-color: #523368;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.navigation {
+  position: relative;
+}
+
+.toggle {
+  /* Style to the 'Hamburger' icon */
+  display: block;
+  font-size: 2.4rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  background-color: #523368;
+  padding: 1rem;
+}
+
+.nav-items.show-items {
+  display: flex;
+}
+
+.nav-items li {
+  margin: 1rem 0;
+}
+
+.nav-items a {
+  color: #ffffff;
+}
+/* Hero Section */
+.hero {
+  background-color: #c7e2fc;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #523368;
+  background-image: url("images/homepage_bg.png"); /* Background image to create a more put together layout */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  font-family: "Pacifico", serif;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  margin: 1rem 0 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #523368;
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  font-family: "Playfair Display", serif;
+}
+/* Benefits Section */
+.benefits {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #ffcbd5;
+}
+
+.benefits h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #523368;
+}
+
+.benefits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.benefit-item {
+  background-color: #ffffff;
+  border: 2px solid #c7e2fc;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 1;
+}
+
+.benefit-icon {
+  /* Style to the icons and size to create consistency */
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.benefit-item h3 {
+  font-size: 1.8rem;
+  color: #523368;
+  margin: 1rem 0;
+}
+
+.benefit-item p {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  background-color: #c7e2fc;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #523368;
+}
+
+.call-to-action h2 {
+  font-family: "Pacifico", serif;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.call-to-action p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.call-to-action .cta-button {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+/* Testimonials Section */
+.testimonials {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #523368;
+  background-image: url("images/homepage_image.png"); /* Background image to create a more put together layout */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonials h2 {
+  font-size: 2.4rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f3a447;
+  border: 2px solid #f3a447;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Stylied box that has a lower opacity */
+  border: 2px solid #f3a447;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial-item h4 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: #f3a447;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #523368;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.footer .social-links li {
+  margin: 0 1rem;
+}
+
+.footer .social-icon {
+  width: 24px;
+  height: 24px;
+}
+/*-------- SECOND PAGE CLASSES  ---------*/
+/* Classes Section */
+.classes {
+  padding: 4rem 2rem;
+  background-color: #f2f5f7;
+  text-align: center;
+}
+
+.classes h2 {
+  font-family: "Pacifico", serif;
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+}
+
+.classes-grid {
+  /*Formatting and style to orangize avaliable classes */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.class-item {
+  background-color: #ffffff;
+  border: 2px solid #c7e2fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  max-width: 280px;
+  flex: 1 1 30%;
+}
+
+.class-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.class-item h3 {
+  font-size: 1.8rem;
+  color: #523368;
+  margin: 1rem 0;
+}
+
+.class-item p {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.class-item .cta-button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: #f3a447;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+/* More Info HTML table */
+.bookings-table {
+  padding: 4rem 2rem;
+  background-color: #f2f5f7;
+  text-align: center;
+}
+.bookings-table h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 1.5rem;
+  font-family: "Pacifico", serif;
+}
+
+.bookings-table p {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.bookings-table table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1.6rem;
+}
+
+.bookings-table th,
+.bookings-table td {
+  border: 1px solid #c7e2fc;
+  padding: 1rem;
+  text-align: left;
+}
+
+.bookings-table th {
+  background-color: #523368;
+  color: #ffffff;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.bookings-table td {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.bookings-table tr:nth-child(even) {
+  background-color: #f7a8b8;
+}
+
+.bookings-table tr:hover {
+  background-color: #c7e2fc;
+}
+
+/* Contact Form Section */
+/* Looked up how to input and style contact section please let me know if this is correct*/
+.contact {
+  padding: 4rem 2rem;
+  background-color: #c7e2fc;
+  text-align: center;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #523368;
+}
+
+.contact-form button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: #f3a447;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.3s ease, transform 0.3s ease; /* Styling for CSS transition */
+}
+.contact-form button:hover {
+  background-color: #e28d30;
+  transform: scale(1.1);
+}
+/* Photo Gallery Section */
+.photo-gallery {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.photo-gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+/* Individual Gallery Items */
+.gallery-item {
+  position: relative;
+  width: calc(50% - 15px);
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* CSS transition */
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1); /* CSS transition */
+}
+
+/*-------- THIRD PAGE ABOUT  ---------*/
+
+/* About Section */
+.about {
+  background-color: #f7bcc8;
+  padding: 4rem 2rem;
+}
+
+.about .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-info {
+  flex: 2; /* Takes up more space than the aside */
+}
+
+.about-info h1 {
+  font-size: 2.8rem;
+  color: #523368;
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.about-info h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.about-info p {
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about .about-content {
+  flex-direction: column;
+}
+
+.about-aside {
+  margin-top: 2rem;
+  align-self: stretch;
+  background-color: #c7e2fc;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-aside h3 {
+  font-size: 2rem;
+  color: #523368;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.about-aside p {
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about-aside ul {
+  list-style: disc;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.about-aside ul li {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+/* Video Section */
+.video-section {
+  background-color: #c7e2fc;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.video-section h2 {
+  font-size: 2.4rem; /* Neutral color for readability */
+  color: #523368;
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.video-wrapper video {
+  width: 100%;
+  max-width: 800px; /* Sizing to video so it doesnt take uo too much content of viewport */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Map Section */
+.map-section {
+  background-image: url("images/homepage_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #f2f5f7;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 2.4rem;
+  color: #523368;
+  margin-bottom: 2rem;
+  font-family: "Pacifico", serif;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  max-width: 800px; /* Limit the map width */
+  height: 450px;
+  border: 2px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*-------- DESKTOP  ---------*/
+/*-------- FIRST PAGE  ---------*/
+/* Header Section for Desktop */
+
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+  }
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .nav-items li {
+    margin: 0;
+  }
+  .nav-items a {
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  /* Benefits Section */
+  .benefits h2 {
+    font-size: 3rem;
+  }
+
+  .benefits-grid {
+    flex-wrap: nowrap;
+    gap: 4rem;
+  }
+
+  .benefit-item {
+    max-width: 280px;
+    flex: 0 0 30%;
+  }
+  /* Call to Action Section */
+  .call-to-action h2 {
+    font-size: 3rem;
+  }
+
+  .call-to-action p {
+    font-size: 2rem;
+  }
+
+  /* Testimonials Section */
+  .testimonials h2 {
+    font-size: 3rem;
+  }
+
+  .testimonial-item {
+    max-width: 700px;
+    padding: 3rem;
+  }
+
+  .testimonial-item p {
+    font-size: 1.8rem;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+
+  .footer p {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .footer .social-links {
+    justify-content: flex-end;
+  }
+
+  .footer .social-links li {
+    margin: 0 2rem;
+  }
+
+  .footer .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+  /*-------- DESKTOP SECOND PAGE  ---------*/
+  /* Classes Section */
+  .classes {
+    padding: 6rem 4rem;
+  }
+
+  .classes-grid {
+    gap: 4rem;
+    justify-content: space-around;
+  }
+
+  .class-item {
+    max-width: 300px; /* Limit class item width */
+    flex: 0 0 30%;
+  }
+
+  .class-item h3 {
+    font-size: 2rem;
+  }
+
+  .class-item p {
+    font-size: 1.8rem;
+  }
+
+  .class-item .cta-button {
+    font-size: 1.8rem;
+  }
+  /* More Info HTML table */
+  .bookings-table {
+    padding: 6rem 4rem;
+  }
+
+  .bookings-table h2 {
+    font-size: 3rem;
+  }
+
+  .bookings-table p {
+    font-size: 1.8rem;
+  }
+
+  .bookings-table table {
+    font-size: 1.8rem;
+  }
+
+  .bookings-table th,
+  .bookings-table td {
+    padding: 1.5rem;
+  }
+  /* Contact Form Section */
+  .contact {
+    padding: 6rem 4rem;
+  }
+
+  .contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .contact-form {
+    max-width: 600px; /* Wider form for desktop */
+    margin: auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+  }
+
+  .contact-form button {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
+  /* Photo Gallery Section */
+  .gallery-item {
+    width: calc(25% - 15px); /* 4 items per row on desktop */
+  }
+
+  /* About Section */
+  .about {
+    padding: 6rem 4rem;
+  }
+
+  .about .about-content {
+    flex-direction: row;
+    gap: 4rem;
+    align-items: flex-start;
+  }
+
+  .about-info {
+    flex: 3;
+    max-width: 70%; /* Limit maximum width */
+  }
+
+  .about-info h1 {
+    font-size: 3.2rem;
+  }
+
+  .about-info h2 {
+    font-size: 2.8rem;
+  }
+
+  .about-info p {
+    font-size: 1.8rem;
+  }
+  .about-aside {
+    flex: 1;
+    max-width: 30%; /* Limit maximum width */
+    padding: 3rem;
+  }
+
+  .about-aside h3 {
+    font-size: 2.4rem;
+  }
+
+  .about-aside p {
+    font-size: 1.8rem;
+  }
+
+  .about-aside ul {
+    margin-left: 2.5rem;
+  }
+
+  .about-aside ul li {
+    font-size: 1.8rem;
+  }
+  /* Video Section */
+  .video-section h2 {
+    font-size: 3rem;
+  }
+
+  .video-wrapper video {
+    max-width: 900px; /* Larger video size for desktop */
+    margin: auto;
+  }
+  /* Map Section */
+  .map-section {
+    padding: 6rem 4rem;
+  }
+
+  .map-section h2 {
+    font-size: 3rem;
+  }
+
+  .map-wrapper iframe {
+    max-width: 900px; /* Larger map size for desktop */
+  }
+}
